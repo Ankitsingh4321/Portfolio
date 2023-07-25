@@ -1,0 +1,119 @@
+@media screen and (max-width:1200px) {
+  .timeline-divider {
+    left: 8%;
+  }
+
+  .timeline-box {
+    left: 12% !important;
+    width: 80%;
+  }
+
+  .timeline-box:nth-child(2n+1)::after {
+    left: -6.5%;
+  }
+
+  .timeline-box:nth-child(2n)::after {
+    left: -6.5%;
+  }
+
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .qualification-box-divider {
+    left: 8px;
+    top: 8%;
+  }
+
+  .qualification-box {
+    left: 12% !important;
+    width: 80%;
+  }
+
+  .qualification-box:nth-child(2n+1)::after {
+    left: -15.3%;
+  }
+
+  .qualification-box:nth-child(2n)::after {
+    left: -15.3%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .timeline-box:nth-child(2n+1)::after {
+    left: -8.4%;
+  }
+
+  .timeline-box:nth-child(2n)::after {
+    left: -8.4%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .qualification-box:nth-child(2n+1)::after {
+    left: -16.2%;
+  }
+
+  .qualification-box:nth-child(2n)::after {
+    left: -16%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  #name-social-container {
+    margin-top: 12.5vh;
+  }
+}
+
+@media screen and (max-width:850px) {
+  #contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .my-details-info-container i {
+    font-size: 1rem;
+  }
+
+  #contact-form-container {
+    width: 50%;
+
+  }
+
+  #my-details-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:390px) {
+  #contact .social-icons li a i {
+    font-size: 1rem;
+    margin: 20px 5px 5px;
+    padding: 5px 7px 10px 5px;
+  }
+}
+@media screen and (max-width:850px) {
+  #contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.5rem;
+    border: 1px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+  }
+}
